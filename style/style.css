@@ -1,0 +1,345 @@
+.head{
+	display: inline-block;
+	/*border: 1px solid red;*/
+	width: 100%;
+	position: fixed;
+	background-color: white;
+	margin-bottom: 10px;
+	position: 0px;
+}
+.name{
+	padding-left: 25px;
+	font-style: italic;
+	font-size: 23px;
+	font-family: 'Poppins', sans-serif;
+	font-weight: bold;
+}
+.headgray{
+	color: #8DC5BD;
+}
+.start{
+	padding-top: 50px;
+	display: inline-block;
+	background: url(../gallery/file.gif) no-repeat;
+	background-size: cover;
+	
+	/*border: 1px solid red;*/
+ 	height: 100vh;
+ 	width: 100%;
+}
+.unline{
+	font-size: 50px;
+	font-style: italic;
+	font-weight: bold;
+	padding-left: 130px;
+	padding-top: 90px;
+	font-family: 'Poppins', sans-serif;
+}
+.underlined{
+	text-decoration: underline solid #F7C777 13px;
+}
+.flist{
+	padding-left: 150px;
+	display: inline-block;
+	/*border: 1px solid red;*/
+	width: 500px;
+}
+.flist1{
+	font-weight: bold;
+	font-size: 18px;
+	font-style: italic;
+	font-family: 'Poppins', sans-serif;
+}
+.flist2{
+	padding-top: 60px;
+	font-size: 25px;
+	font-style: italic;
+	font-family: 'Poppins', sans-serif;
+}
+.flist2 p{
+	color: gray;
+}
+.work{
+	display: inline-block;
+	/*border: 1px solid red;*/
+	margin-left: 10%;
+	width: 80%;
+	background-color: #FEF4F4 ;
+	padding-bottom: 50px;
+}
+.workh1{
+	padding-top: 25px;
+	padding-left: 10%;
+	font-size: 40px;
+	font-weight: bold;
+	font-family: 'Poppins', sans-serif;
+	text-decoration: underline solid #F7C777 13px;
+}
+.workinfo{
+	padding-top:40px;
+	padding-left: 25%;
+	font-family: 'Montagu Slab', serif;
+	font-size: 23px;
+	font-style: italic;
+	color: #424242;
+	font-weight: bold;
+}
+.workplace{
+	padding-left: 10%;
+	padding-top: 20px;
+}
+.workplaceh1{
+	font-family: 'Montagu Slab', serif;
+	font-weight: 100;
+}
+.workplace1{
+	display: flex;
+}
+.workiencrypt{
+	width: 50%;
+}
+.encrypttxt{
+	font-family: 'Montagu Slab', serif;
+}
+.einput{
+	width: 80%;
+	height: 100px;
+	background-color: rgba(255, 203, 170, 0.8);
+}
+
+.workoencrypt{
+	width: 50%;
+}
+.enciphertxt{
+	font-family: 'Montagu Slab', serif;
+}
+.eoutput{
+	width: 80%;
+	height: 100px;
+	background-color: rgba(255, 203, 170, 0.8);
+}
+.button1{
+	margin-left: 35%;
+	background-color: rgba(255, 203, 170, 0.8);
+	border-radius: 10px;
+}
+
+.about{
+	display: flex;
+	width: 100%;
+}
+.aboutl{
+	display: inline-block;
+	float: left;
+	width: 50%;
+	border: 3px solid black;
+}
+.aboutli{
+	width: 56%;
+	height: 450px;
+	/*border: 1px solid red;*/
+	margin-left: 22%;
+	margin-top: 60px;
+	margin-bottom: 5%;
+	background: url(../gallery/shiph.jpg) no-repeat;
+	background-size: cover;
+	box-shadow: 10px 5px 5px black;
+}
+/*.ready {
+	width: 0;
+  	height: 0;
+  	border-bottom: 20px solid transparent;
+ 	border-top: 20px solid transparent;
+  	border-left: 100px solid white;
+  	transform: rotate(-10deg);
+}*/
+.aboutr{
+	width: 50%;
+	display: inline-block;
+	float: left;
+	border: 3px solid black;
+	border-left: 0;
+}
+.abouth1{
+	margin-left: 20%;
+	margin-top: 70px;
+	margin-right: 20%;
+	font-style: italic;
+	font-weight: bold;
+	font-family: 'Poppins', sans-serif;
+	font-size: 40px;
+	line-height: 1.2;
+}
+.abouth2{
+	margin-left: 20%;
+	margin-top: 15px;
+	margin-right: 20%;
+	font-style: italic;
+	line-height: 1.0;
+	font-weight: bold;
+	font-family: 'Poppins', sans-serif;
+	font-size: 20px;
+}
+.abouttxt{
+	margin-left: 20%;
+	margin-top: 20px;
+	margin-right: 20%;
+	font-family: 'Montagu Slab', serif;
+	font-size: 19px;
+	color: #424242;
+}
+.hiw{
+	width: 100%;
+	background: url(../gallery/hiw.png);
+	background-position: center;
+	margin-top: -30px;
+	height: 700px;
+}
+.hiwh1{
+	padding-top: 60px;
+	margin-left: 12%;
+	font-family: 'Poppins', sans-serif;
+	font-size: 40px;
+}
+.hiwun{
+	text-decoration: underline solid #F7C777 13px;
+}
+.hiwprocess{
+	display: flex;
+	margin-left: 12%;
+}
+.hiwp1{
+	margin-top: 220px;
+}
+.hiwenc{
+	font-family: 'Poppins', sans-serif;
+}
+.hiwencp{
+	display: inline-block;
+	width: 140px;
+	padding-left: 30px;
+	font-family: 'Quicksand', sans-serif;
+	font-size: 20px;
+	margin-top: -15px;
+}
+.hiwp2{
+	margin-top: 260px;
+	margin-left: 80px;
+}
+.hiwep{
+	font-family: 'Poppins', sans-serif;
+}
+.hiwepa{
+	display: inline-block;
+	width: 230px;
+	padding-left: 10px;
+	font-family: 'Quicksand', sans-serif;
+	font-size: 18px;
+	margin-top: -15px;
+}
+.hiwp3{
+	margin-top: 180px;
+	margin-left: 70px;
+}
+.hiwdec{
+	font-family: 'Poppins', sans-serif;
+}
+.hiwdecp{
+	margin-top: -15px;
+	display: inline-block;
+	width: 140px;
+	padding-left: 30px;
+	font-family: 'Quicksand', sans-serif;
+	font-size: 20px;
+}
+.hiwp4{
+	margin-left: 20px;
+}
+.hiwdp{
+	font-family: 'Poppins', sans-serif;
+}
+.hiwdpa{
+	display: inline-block;
+	width: 230px;
+	padding-left: 10px;
+	font-family: 'Quicksand', sans-serif;
+	font-size: 18px;
+	margin-top: -15px;
+}
+.end{
+	width: 100%;
+	background-color: #F7C777;
+	padding-top: 15px;
+	display: inline-block;
+}
+.end2{
+	display: flex;
+	width: 100%;
+}
+.donate{
+	display: inline-block;
+	width: 50%;
+	border: 2px solid black;
+	border-ri: 0;
+	background-color: whitesmoke;
+}
+.donateh1{
+	margin-left: 20%;
+	margin-top: 40px;
+	font-family: 'Poppins', sans-serif;
+	text-decoration: underline solid #F7C777 13px;
+}
+.donateblock{
+	margin-left: 20%;
+	background-color: ghostwhite;
+	width: 300px;
+}
+.donatelogo{
+	display: inline-block;
+	margin-top: 30px;
+}
+.donatelogo img{
+	height: 30px;
+}
+.donaterek{
+	padding-bottom: 40px;
+	font-family: 'Quicksand', sans-serif;
+	font-size: 25px;
+}
+.info{
+	display: inline-block;
+	width: 50%;
+	border: 2px solid black;
+	background-color: whitesmoke;
+}
+.infoh1{
+	margin-top: 40px;
+	font-family: 'Poppins', sans-serif;
+	text-decoration: underline solid #F7C777 13px;
+	letter-spacing: 0em;
+	margin-left: 20%;
+}
+.infop{
+	margin-left: 20%;
+	margin-top: 40px;
+	font-family: 'Quicksand', sans-serif;
+	font-size: 25px;
+}
+.created p{
+	margin-top: 0;
+	margin-left: 42%;
+	font-family: 'Poppins', sans-serif;
+}
+.ig{
+	display: flex;
+	margin-left: 20%;
+}
+.fa-instagram{
+	text-decoration: none;
+	width: 20px;
+	color: gray;
+}
+.ighref{
+	text-decoration: none;
+	color: gray;
+}
